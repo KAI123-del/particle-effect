@@ -7,6 +7,7 @@ import ParticleImage, {
   ParticleForce,
 } from "react-particle-image";
 import omParticle from "./images/omParticles.jpg";
+import "./index.css";
 
 const particleOptions: ParticleOptions = {
   filter: ({ x, y, image }) => {
