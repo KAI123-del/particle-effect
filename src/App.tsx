@@ -6,7 +6,7 @@ import ParticleImage, {
   forces,
   ParticleForce,
 } from "react-particle-image";
-import profile from "./images/profile.jpg";
+import omParticle from "./images/omParticles.jpg";
 
 const particleOptions: ParticleOptions = {
   filter: ({ x, y, image }) => {
@@ -33,9 +33,7 @@ export default function App() {
 
   return (
     <ParticleImage
-      src={
-        "https://i.pinimg.com/564x/b9/90/72/b99072ad074e113a3d29ee33db1e4950--buddha-tattoo-om-symbol.jpg"
-      }
+      src={omParticle}
       width={Number(innerWidth)}
       height={Number(innerHeight)}
       scale={1.2}
